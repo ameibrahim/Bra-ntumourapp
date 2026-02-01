@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.pkl
+data/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Training outputs (optional - only if not deploying these)
+# *.png
+# *.jpg
+# confusion_matrix.png
+# learning_curves.png
+# roc_curve.png
