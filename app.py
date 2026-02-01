@@ -41,7 +41,7 @@ def load_model():
         # Get file size
         file_size = os.path.getsize(MODEL_PATH) / 1024 / 1024
         
-        # Load model
+        # Load model with safe_mode=False for compatibility
         model = tf.keras.models.load_model(
             MODEL_PATH, 
             compile=False,
