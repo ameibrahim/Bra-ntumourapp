@@ -44,8 +44,7 @@ def load_model():
         # Load model with safe_mode=False for compatibility
         model = tf.keras.models.load_model(
             MODEL_PATH, 
-            compile=False,
-            safe_mode=False
+            compile=False
         )
         
         st.sidebar.success(f"✅ Model loaded successfully!")
